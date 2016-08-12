@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8F9A13A71D526CB60058A4E3"
-               BuildableName = "searchbar4.app"
-               BlueprintName = "searchbar4"
+               BuildableName = "AvocaDonate.app"
+               BlueprintName = "Avocadonate"
                ReferencedContainer = "container:searchbar4.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8F9A13BB1D526CB60058A4E3"
-               BuildableName = "searchbar4Tests.xctest"
+               BuildableName = "searchbar4.temp_caseinsensitive_renameTests.xctest"
                BlueprintName = "searchbar4Tests"
                ReferencedContainer = "container:searchbar4.xcodeproj">
             </BuildableReference>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8F9A13A71D526CB60058A4E3"
-            BuildableName = "searchbar4.app"
-            BlueprintName = "searchbar4"
+            BuildableName = "AvocaDonate.app"
+            BlueprintName = "Avocadonate"
             ReferencedContainer = "container:searchbar4.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8F9A13A71D526CB60058A4E3"
-            BuildableName = "searchbar4.app"
-            BlueprintName = "searchbar4"
+            BuildableName = "AvocaDonate.app"
+            BlueprintName = "Avocadonate"
             ReferencedContainer = "container:searchbar4.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,8 +85,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8F9A13A71D526CB60058A4E3"
-            BuildableName = "searchbar4.app"
-            BlueprintName = "searchbar4"
+            BuildableName = "AvocaDonate.app"
+            BlueprintName = "Avocadonate"
             ReferencedContainer = "container:searchbar4.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

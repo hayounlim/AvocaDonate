@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A35527E1D5BCA8000D48D78 /* SignPainter-HouseScript.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A35527D1D5BCA8000D48D78 /* SignPainter-HouseScript.ttf */; };
+		8F868F241D54F62A00432FE5 /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F868F231D54F62A00432FE5 /* DonateViewController.swift */; };
+		8F8F2CE51D53AC0300F45C9D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F2CE41D53AC0300F45C9D /* DetailViewController.swift */; };
+		8F8F2D151D53B47B00F45C9D /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F2D141D53B47B00F45C9D /* SplitViewController.swift */; };
 		8F9A13AC1D526CB60058A4E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A13AB1D526CB60058A4E3 /* AppDelegate.swift */; };
 		8F9A13AE1D526CB60058A4E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A13AD1D526CB60058A4E3 /* ViewController.swift */; };
 		8F9A13B11D526CB60058A4E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9A13AF1D526CB60058A4E3 /* Main.storyboard */; };
 		8F9A13B31D526CB60058A4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9A13B21D526CB60058A4E3 /* Assets.xcassets */; };
 		8F9A13B61D526CB60058A4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9A13B41D526CB60058A4E3 /* LaunchScreen.storyboard */; };
 		8F9A13C11D526CB60058A4E3 /* searchbar4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A13C01D526CB60058A4E3 /* searchbar4Tests.swift */; };
+		8F9A13CC1D526CE00058A4E3 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A13CB1D526CE00058A4E3 /* data.swift */; };
+		8F9A13D21D52A8120058A4E3 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A13D11D52A8120058A4E3 /* CustomTableViewCell.swift */; };
+		8FA920021D59243200F744EE /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA920011D59243200F744EE /* FirstPageViewController.swift */; };
+		8FA920041D59246300F744EE /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA920031D59246300F744EE /* RegisterPageViewController.swift */; };
+		8FA920061D59247F00F744EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA920051D59247F00F744EE /* LoginViewController.swift */; };
+		8FA920081D59249F00F744EE /* DonorRegistrationPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA920071D59249F00F744EE /* DonorRegistrationPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +36,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8F9A13A81D526CB60058A4E3 /* searchbar4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = searchbar4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A35527D1D5BCA8000D48D78 /* SignPainter-HouseScript.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SignPainter-HouseScript.ttf"; sourceTree = "<group>"; };
+		8A8BBE181D5BABB8008CBA9F /* SignPainter-HouseScript.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SignPainter-HouseScript.ttf"; sourceTree = "<group>"; };
+		8F868F231D54F62A00432FE5 /* DonateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
+		8F8F2CE41D53AC0300F45C9D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8F8F2D141D53B47B00F45C9D /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		8F9A13A81D526CB60058A4E3 /* AvocaDonate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvocaDonate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9A13AB1D526CB60058A4E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F9A13AD1D526CB60058A4E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F9A13B01D526CB60058A4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F9A13B21D526CB60058A4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F9A13B51D526CB60058A4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F9A13B71D526CB60058A4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F9A13BC1D526CB60058A4E3 /* searchbar4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = searchbar4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9A13BC1D526CB60058A4E3 /* searchbar4.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = searchbar4.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9A13C01D526CB60058A4E3 /* searchbar4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchbar4Tests.swift; sourceTree = "<group>"; };
 		8F9A13C21D526CB60058A4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9A13CB1D526CE00058A4E3 /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		8F9A13D11D52A8120058A4E3 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = ../CustomTableViewCell.swift; sourceTree = "<group>"; };
+		8FA920011D59243200F744EE /* FirstPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		8FA920031D59246300F744EE /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		8FA920051D59247F00F744EE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8FA920071D59249F00F744EE /* DonorRegistrationPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorRegistrationPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +80,7 @@
 		8F9A139F1D526CB60058A4E3 = {
 			isa = PBXGroup;
 			children = (
+				8A35527D1D5BCA8000D48D78 /* SignPainter-HouseScript.ttf */,
 				8F9A13AA1D526CB60058A4E3 /* searchbar4 */,
 				8F9A13BF1D526CB60058A4E3 /* searchbar4Tests */,
 				8F9A13A91D526CB60058A4E3 /* Products */,
@@ -68,8 +90,8 @@
 		8F9A13A91D526CB60058A4E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F9A13A81D526CB60058A4E3 /* searchbar4.app */,
-				8F9A13BC1D526CB60058A4E3 /* searchbar4Tests.xctest */,
+				8F9A13A81D526CB60058A4E3 /* AvocaDonate.app */,
+				8F9A13BC1D526CB60058A4E3 /* searchbar4.temp_caseinsensitive_renameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,9 +99,19 @@
 		8F9A13AA1D526CB60058A4E3 /* searchbar4 */ = {
 			isa = PBXGroup;
 			children = (
+				8F9A13D11D52A8120058A4E3 /* CustomTableViewCell.swift */,
 				8F9A13AB1D526CB60058A4E3 /* AppDelegate.swift */,
 				8F9A13AD1D526CB60058A4E3 /* ViewController.swift */,
+				8F8F2D141D53B47B00F45C9D /* SplitViewController.swift */,
+				8F8F2CE41D53AC0300F45C9D /* DetailViewController.swift */,
 				8F9A13AF1D526CB60058A4E3 /* Main.storyboard */,
+				8A8BBE181D5BABB8008CBA9F /* SignPainter-HouseScript.ttf */,
+				8FA920011D59243200F744EE /* FirstPageViewController.swift */,
+				8FA920031D59246300F744EE /* RegisterPageViewController.swift */,
+				8F868F231D54F62A00432FE5 /* DonateViewController.swift */,
+				8FA920051D59247F00F744EE /* LoginViewController.swift */,
+				8FA920071D59249F00F744EE /* DonorRegistrationPageViewController.swift */,
+				8F9A13CB1D526CE00058A4E3 /* data.swift */,
 				8F9A13B21D526CB60058A4E3 /* Assets.xcassets */,
 				8F9A13B41D526CB60058A4E3 /* LaunchScreen.storyboard */,
 				8F9A13B71D526CB60058A4E3 /* Info.plist */,
@@ -99,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8F9A13A71D526CB60058A4E3 /* searchbar4 */ = {
+		8F9A13A71D526CB60058A4E3 /* Avocadonate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F9A13C51D526CB60058A4E3 /* Build configuration list for PBXNativeTarget "searchbar4" */;
+			buildConfigurationList = 8F9A13C51D526CB60058A4E3 /* Build configuration list for PBXNativeTarget "Avocadonate" */;
 			buildPhases = (
 				8F9A13A41D526CB60058A4E3 /* Sources */,
 				8F9A13A51D526CB60058A4E3 /* Frameworks */,
@@ -111,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = searchbar4;
+			name = Avocadonate;
 			productName = searchbar4;
-			productReference = 8F9A13A81D526CB60058A4E3 /* searchbar4.app */;
+			productReference = 8F9A13A81D526CB60058A4E3 /* AvocaDonate.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8F9A13BB1D526CB60058A4E3 /* searchbar4Tests */ = {
@@ -131,7 +163,7 @@
 			);
 			name = searchbar4Tests;
 			productName = searchbar4Tests;
-			productReference = 8F9A13BC1D526CB60058A4E3 /* searchbar4Tests.xctest */;
+			productReference = 8F9A13BC1D526CB60058A4E3 /* searchbar4.temp_caseinsensitive_renameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -146,6 +178,7 @@
 				TargetAttributes = {
 					8F9A13A71D526CB60058A4E3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8F6N46BF3G;
 					};
 					8F9A13BB1D526CB60058A4E3 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -166,7 +199,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F9A13A71D526CB60058A4E3 /* searchbar4 */,
+				8F9A13A71D526CB60058A4E3 /* Avocadonate */,
 				8F9A13BB1D526CB60058A4E3 /* searchbar4Tests */,
 			);
 		};
@@ -180,6 +213,7 @@
 				8F9A13B61D526CB60058A4E3 /* LaunchScreen.storyboard in Resources */,
 				8F9A13B31D526CB60058A4E3 /* Assets.xcassets in Resources */,
 				8F9A13B11D526CB60058A4E3 /* Main.storyboard in Resources */,
+				8A35527E1D5BCA8000D48D78 /* SignPainter-HouseScript.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +232,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F9A13AE1D526CB60058A4E3 /* ViewController.swift in Sources */,
+				8F868F241D54F62A00432FE5 /* DonateViewController.swift in Sources */,
+				8F9A13CC1D526CE00058A4E3 /* data.swift in Sources */,
+				8F8F2CE51D53AC0300F45C9D /* DetailViewController.swift in Sources */,
+				8FA920081D59249F00F744EE /* DonorRegistrationPageViewController.swift in Sources */,
+				8FA920021D59243200F744EE /* FirstPageViewController.swift in Sources */,
+				8FA920041D59246300F744EE /* RegisterPageViewController.swift in Sources */,
+				8F9A13D21D52A8120058A4E3 /* CustomTableViewCell.swift in Sources */,
 				8F9A13AC1D526CB60058A4E3 /* AppDelegate.swift in Sources */,
+				8FA920061D59247F00F744EE /* LoginViewController.swift in Sources */,
+				8F8F2D151D53B47B00F45C9D /* SplitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +258,7 @@
 /* Begin PBXTargetDependency section */
 		8F9A13BE1D526CB60058A4E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8F9A13A71D526CB60058A4E3 /* searchbar4 */;
+			target = 8F9A13A71D526CB60058A4E3 /* Avocadonate */;
 			targetProxy = 8F9A13BD1D526CB60058A4E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -327,10 +370,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = searchbar4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vc.searchbar4;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AvocaDonate;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -338,10 +384,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = searchbar4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vc.searchbar4;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AvocaDonate;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -352,8 +401,8 @@
 				INFOPLIST_FILE = searchbar4Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vc.searchbar4Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/searchbar4.app/searchbar4";
+				PRODUCT_NAME = searchbar4.temp_caseinsensitive_renameTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/searchbar4.temp_caseinsensitive_rename.app/searchbar4.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -364,8 +413,8 @@
 				INFOPLIST_FILE = searchbar4Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vc.searchbar4Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/searchbar4.app/searchbar4";
+				PRODUCT_NAME = searchbar4.temp_caseinsensitive_renameTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/searchbar4.temp_caseinsensitive_rename.app/searchbar4.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -381,13 +430,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F9A13C51D526CB60058A4E3 /* Build configuration list for PBXNativeTarget "searchbar4" */ = {
+		8F9A13C51D526CB60058A4E3 /* Build configuration list for PBXNativeTarget "Avocadonate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F9A13C61D526CB60058A4E3 /* Debug */,
 				8F9A13C71D526CB60058A4E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F9A13C81D526CB60058A4E3 /* Build configuration list for PBXNativeTarget "searchbar4Tests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +446,7 @@
 				8F9A13CA1D526CB60058A4E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

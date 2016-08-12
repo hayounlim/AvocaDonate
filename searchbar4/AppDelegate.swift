@@ -12,10 +12,36 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+//        UINavigationBar.appearance().barTintColor = UIColor.greenColor()
+//        
+//        
+        //img nav bar
+        
+//        let navBgImage:UIImage = UIImage(named:"bettertopbar.png")!
+//        UINavigationBar.appearance().setBackgroundImage(navBgImage, forBarMetrics: .Default)
+//        
+//        
+//        
+        
+//        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//        let splitViewController = mainStoryboard.instantiateViewControllerWithIdentifier("splitView") as! SplitViewController
+//        
+        
+////        let splitViewController = self.window!.rootViewController as! UISplitViewController
+//        let leftNavController = splitViewController.viewControllers.first as! UINavigationController
+//        let masterViewController = leftNavController.topViewController as! ViewController
+//    
+//        let rightNavController = splitViewController.viewControllers.last as! UINavigationController
+//        let detailViewController = rightNavController.topViewController as! DetailViewController
+//        
+//        let firstCandy = masterViewController.candies.first
+//        detailViewController.candy = firstCandy
+//        
+//        masterViewController.delegate = detailViewController
         return true
     }
 
